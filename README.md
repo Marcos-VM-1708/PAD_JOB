@@ -22,7 +22,7 @@ Aqui vamos documentar como será nosso processo da AGEMC
 #GET
 
 
-1° - Os dados são diversos, temos que pensar em como vamos conseguir eles: api Ifood, informações minimas de um négocio, clima, questões sacionais, etc. Scramping e Apis
+1° - Os dados são diversos, temos que pensar em como vamos conseguir eles: api Ifood, informações minimas de um négocio, clima, questões sazionais, etc. Scramping e Apis
 
 
 2° - Dados disponibilizados da Pactos
