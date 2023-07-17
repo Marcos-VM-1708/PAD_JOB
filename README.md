@@ -1,64 +1,44 @@
-# Projeto FMF - Bombados
+# Projeto FMF - Análise de Sentimentos
 
 
-Membros: João Pedro, Lisandra Menezes e Marcos Vinicius
+Membros: Fabiano Caetano, Fernando Mota, João Pedro, Lisandra Menezes e Marcos Vinicius
 
 
-#1 - Sobre o projeto
+# Projeto de análise de sentimentos aplicado em bares goianos
+
+Nosso projeto tem sua originalidade baseada no serviço posterior a analise de sentimento que podemos prestar. 
+
+Certamente análise de sentimentos é algo popular e uma questão resolvida pela academia, tão é que podemos usar bibliotecas pré-treinadas para fazer essa análise. Mas nosso objetivo com a análise de sentimentos para aplicação nos negócios está relacionada a também entender e identificar padrões, gerar insights e entre outras questões.
 
 
-Aqui vamos documentar como será nosso processo da AGEMC
+# Ask
 
 
-#ASK 
+As principais questões que queremos responder é:
 
 
-1° - Como podemos usar previsão de demanda para pequenos negócios, imaginando que eles terão no minimo entrada de caixa e número de produção diária?
+1 - Review de produto: Quais são os pontos fortes e fracos dos comércios avaliados de acordo com os clientes?
 
 
-2° - Conseguimos avaliar os leads de uma academia? Ou, conseguimos prever a quantidade de novos alunos que se matricularam e quando farão isso? Essa é uma estratégia interessante para as academias seguirem?
+2 - Conseguimos automatizar pesquisas de mercado? Conseguimos responder a questão: "O local X precisa de que tipo de comércio?"
 
 
-#GET
+3 - Como podemos gerar insights que ajudem os comércios a partir de análise de sentimentos?
 
 
-1° - Os dados são diversos, temos que pensar em como vamos conseguir eles: api Ifood, informações minimas de um négocio, clima, questões sazionais, etc. Scramping e Apis
+# Get
+
+1 - Scraping google
+2 - Reclame aqui 
 
 
-2° - Dados disponibilizados da Pactos
+# Explore -
 
 
-E -
+# Model -
 
 
-M -
+# Comunication -
 
 
-C -
 
-
-#O tipo de projeto que escolhemos foi de previsão de demanda
-
-
-Projeto FMF:
-Demand forecast with different data science approaches
-https://towardsdatascience.com/demand-forecast-with-different-data-science-approaches-ba3703a0afb6
-
-
-Pasta Google Drive:
-https://drive.google.com/drive/folders/1GeQvqtKTrvX2GT-exQS3XRA5SKR8JOMo?usp=sharing
-
-
-#2 - A originalidade
-
-
-Até o momento temos duas propostas de originalidade, e estamos decidindo por uma das duas
-
-
-(INOVAÇÃO NO BANDO DE DADOS) Banco de dados genérico para previsão de demanda de vários tipos de negócios ( Usamos a Ml para previsão de demando, mas fazemos essa analise a partir de um conjunto de dados diverso, já que comercios pequenos não possuem armazenamento das informações de vendas)
-
-
-ou
-
-
-(INOVAÇÃO NO MERCADO) Prevendo a entrada de clientes na academia, usando uma técnica famosa de ML para gerar novas informações para as academia aproveitarem sua demanda. 
