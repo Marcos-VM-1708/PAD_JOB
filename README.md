@@ -1,7 +1,7 @@
 # Projeto FMF - Análise de Sentimentos
 
 
-Membros: Fabiano Caetano, Fernando Mota, João Pedro, Lisandra Menezes e Marcos Vinicius
+Membros: Fabiano Caetano, Fernando Mota, João Pedro, Lisandra Menezes, Marcos Vinicius e Pedro Saraiva
 
 
 # Projeto de análise de sentimentos aplicado em bares goianos
