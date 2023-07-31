@@ -49,6 +49,7 @@ Nessa segunda pergunta, podemos ainda segmentar ela em algumas perguntas e tenta
 1 - Scraping google 
     >>> scraping via plataforma apify --- forma mais rapida de validar se os dados do google maps respondem ao ask 
     >>> pipeline do processo de web scraping dos dados > implantação google (bs4 & selenium...)
+
 2 - Reclame aqui 
 
 
