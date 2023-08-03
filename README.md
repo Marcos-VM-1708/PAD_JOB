@@ -54,7 +54,6 @@ Nessa segunda pergunta, podemos ainda segmentar ela em algumas perguntas e tenta
 
 2 - Reclame aqui 
 
-
 # Explore -
 
 
@@ -62,6 +61,10 @@ Nessa segunda pergunta, podemos ainda segmentar ela em algumas perguntas e tenta
 
 
 # Comunication -
-
+    >>> bd-extension.json => "Amplitude do nicho de mercado do segmento alimenticio."
+    >>> bd-revies.json => "Dados segmento bar contendo as rewies de usuarios."
+    >>> bd-reviews => "Desempacotador das reviws." --remonedado
+    >>> df-coleta_manual => "Dados anotados manualmente."
+    >>> df-no_review => "informações mais gerais sobre as lojas do segmento bar" --recomendado caso não precise usar as reviews."
 
 
