@@ -52,13 +52,16 @@ Nessa segunda pergunta, podemos ainda segmentar ela em algumas perguntas e tenta
    
     >>> pipeline do processo de web scraping dos dados > implantação google (bs4 & selenium...)
 
-2 - Reclame aqui 
-
 # Explore -
-
-
+    >>> equipe 1: Marcos e João Pedro: 
+        -2 - Conseguimos automatizar pesquisas de mercado? Conseguimos responder a questão: "O local X precisa de que tipo de comércio?"
+        -4 - Podemos gerar consultoria de comparação de unidades de uma franquia para ajudar na padronização das franquias?
+    >>> equipe 2: Saraiva, Fabiano, Fernando: 
+        -1 - Review de produto: Quais são os pontos fortes e fracos dos comércios avaliados de acordo com os clientes?
+        -3 - Como podemos gerar insights que ajudem os comércios a partir de análise de sentimentos?
+    
 # Model -
-
+    textbloob - more info ...
 
 # Comunication -
     >>> bd-extension.json => "Amplitude do nicho de mercado do segmento alimenticio."
