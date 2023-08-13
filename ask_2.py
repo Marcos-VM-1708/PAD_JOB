@@ -19,7 +19,7 @@ query = '''SELECT
 
 # Função para obter dados do BigQuery com cache
 def get_bigquery_data(credentials, query):
-    cache_filename = 'explore/bigquery_cache.pkl'
+    cache_filename = 'bigquery_cache.pkl'
 
     # Verifica se os dados estão em cache
     if os.path.exists(cache_filename):
