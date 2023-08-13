@@ -15,7 +15,7 @@ credentials = service_account.Credentials.from_service_account_info(info)
 # Pergunta
 query = '''SELECT
             *
-            FROM Land_zone.Info_geral'''
+            FROM Land_zone.explore_reviews'''
 
 # Função para obter dados do BigQuery com cache
 def get_bigquery_data(credentials, query):
@@ -29,7 +29,7 @@ def get_bigquery_data(credentials, query):
 
     # Caso os dados não estejam em cache, consulta o BigQuery
     df = pd.read_gbq(credentials=credentials, query=query)
-
+    print(df.shape)
     # Armazena os dados em cache
     with open(cache_filename, 'wb') as cache_file:
         pickle.dump(df, cache_file)
@@ -37,4 +37,6 @@ def get_bigquery_data(credentials, query):
     return df
 
 # Obtém os dados do BigQuery (ou do cache)
+
 df = get_bigquery_data(credentials, query)
+print(df.head())

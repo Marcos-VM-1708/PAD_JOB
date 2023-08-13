@@ -29,3 +29,5 @@ def cloud_words(label):
     # Exiba a nuvem de palavras
     plt.show()
 
+#------------------------------------------------------------------
+
