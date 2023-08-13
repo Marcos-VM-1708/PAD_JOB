@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "lab-union",
+  "private_key_id": "afd83749cd31fde2d0df1d8ceceec8a09552d8d6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDEPiS/AdfKm+D6\nlxjHgZlW9QvPWesLhwUsdpmOCA9oojsefgGaEmZdqkRmK7K/L9ctRYYrJ10kj0LX\nx/sjvTclTtqF3kgdHRagJdfUXDZFdGeNGvnDfXYb673zQAVZ8RV3sIROnOv97M+l\nq/uUL1G4LN6/kFUL+cAvj4ZWwKYSQY3iG1V+yym7TCaJMtQJjiMFBSE95IuoO5Qk\nYmYU8LJ6QK6ktqhNN8N0BZsaiZWE1hSzumKCJGHTX2pZUpoyX/nKPNtgTbVgaPo9\nA8K3EPZ4Lf86fLe0T/UEThv7JxZOQ0o+8UTcvwa68n1aWGeYbcNyG+ahLyUf9Bfs\nqIkQnNEvAgMBAAECggEAKl7YhD0boG1DiBdzjC/ZMcM6x4w8iYKfhVgeE2J+ITNV\n3GGMav2qCHMozX6F222y4d1u+IZJQAmGfxx4huDltTJvUBQMMe0D45QII5u9RAW8\nDeVTI/hEtgaSPqEGBsNcxTjheC+9bFfjBXw6l2YYGNHnTikVk75a1moAsV5q/Om1\ngwdMR3HMdXKDz9cr2jbqeK/BJxqwmYCLqTSrqkJ97aO5gF0q4cEajqgNVBGP7/ZJ\n1CWVIWZP6vY0joZhVDJkJg9HD/zHT54z0RfrOy9DpEySt9NNZakmVG4c33alqDZ9\nH3o6R4hyU5AxWlJB3aDZIqQfxYzBweBUv+AhQho1EQKBgQDuztjI0fphPamQrft0\n9iZFOXFrAGtkGxi31tHrknxyqlDJYjwk272K6RFrLsrqMVlxjRul1cK77BWE3/eB\nVRJnlkwYc+FjG89lEPGgDSpLA6db/btXi3zifObB7wRj6eccPtqrb17SYvto0Y8y\nKed6nIhOQAsQb4ZkASvc+DO5+wKBgQDSXtVJgS0yvWjQNtoYYkW7kpVhFZDAbJYV\nseVZkMevglRI6Ho81QToU+hIc4a6o/SXGAMyN3IWe/cnImOs4bj1TVDPGDVVssCG\n0efd7keEyFwadJ9pxFUUq95x77Qr4aloZsocfTYNjfEhJzSZQ8dUPcyTwPtsPgzT\n3csro4vzXQKBgQCSSz0aqSfNckzySOMGn9SKC8qjVjpztPXLiVpIChEa3aNn+zoF\nCmhvNKBrHNtJ5Ll6iospaG5HWTVFlT62iDsiIjyzrimg4WSH8X1UIzyJf8+C10lx\nNA5pYUKsA5SY8K2X7BlhdHSORfzmFZq3jFw2DLaj2S/t/aRCl0UbtSFbCQKBgA5D\nBZytGD5XXvK2tURv7SBRSLVDPAP/mJEx9UWELjV01Xf34sma+3Ewtw+qXVjr4poX\ns6fE4IQrtU6+4xkGWH6w1iikEIGV072QH3MJQ2n6F1xnyaLm/4meOT9qK8HJ061T\nQqJ5zp9OnylLOiKl2K6aXfMqYyEsd7wpTivQM521AoGBANBHfuKLQFQ7qvXSa5Yj\n9RE0SDMdTzUIx29cLpRKhNtHGO9F1RoSvfA1DGs7KFBuvAdDGyNkCmq4Am65r0fJ\nGvtq9/8dbYQ5Dnmbd4bZF7FyXghdEh9POxTM+0G/yczmdUNk042a4uFBvXmcHOKc\n/H7/5nQpgdLQn7+OlqQgE7BZ\n-----END PRIVATE KEY-----\n",
+  "client_email": "marcos@lab-union.iam.gserviceaccount.com",
+  "client_id": "102851905559816083187",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/marcos%40lab-union.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

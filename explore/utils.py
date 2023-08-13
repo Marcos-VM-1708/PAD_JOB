@@ -1,4 +1,3 @@
-import pandas as pd
 from ask_2 import df
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
