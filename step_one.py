@@ -10,6 +10,7 @@ from transformers import AlbertTokenizer, AlbertForSequenceClassification
 tokenizer = AlbertTokenizer.from_pretrained("bhadresh-savani/albert-base-v2-emotion")
 model = AlbertForSequenceClassification.from_pretrained("bhadresh-savani/albert-base-v2-emotion")
 
+#----------------------------------------------------------------
 
 # Função para analisar emoções em um texto
 def analyze_emotion(text):
@@ -40,7 +41,7 @@ def display_results(text, predicted_emotion, probabilities):
 
 
 # Exemplo de uso
-input_text = "Estou me sentindo muito feliz hoje!"
+input_text = df["revies"].tolist()
 predicted_emotion, probabilities = analyze_emotion(input_text)
 display_results(input_text, predicted_emotion, probabilities)
 
