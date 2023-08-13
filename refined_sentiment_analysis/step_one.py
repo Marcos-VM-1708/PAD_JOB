@@ -1,8 +1,5 @@
 import torch
-import pandas as pd
-from ask_2 import df
-from transformers import pipeline
-from transformers import AutoTokenizer
+from refined_sentiment_analysis.bigquery_data import df
 from transformers import AlbertTokenizer, AlbertForSequenceClassification
 #----------------------------------------------------------------
 
