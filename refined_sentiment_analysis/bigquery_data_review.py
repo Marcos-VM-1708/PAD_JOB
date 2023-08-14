@@ -39,4 +39,6 @@ def get_bigquery_data(credentials, query):
 # Obtém os dados do BigQuery (ou do cache)
 
 df = get_bigquery_data(credentials, query)
+
+filtered_rows = df.loc[df['title'] == 'Júnior Cozinha Brasileira']
 print(df.head())
