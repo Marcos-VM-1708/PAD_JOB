@@ -8,13 +8,13 @@ Membros: Fabiano Caetano (líder), Fernando Mota, João Pedro, Lisandra Menezes,
 
 
 
-A Análise de Sentimentos é, a grosso modo, o processo de analisar um texto digital para determinar se o tom emocional da mensagem é positivo, negativo ou neutro. Nesse trabalho utilizamos alguns frameworks já estabelecidos e validados pela comunidade, com o intuito de identificar padrões, gerar insights e ajudar na absorção e processamento dos feedbacks dos clientes de maneira mais intuitiva.
+A Análise de Sentimentos é uma técnica utilizada para determinar a polaridade de uma sentença ou palavra, denominando o tom emocional da mensagem de positivo, negativo ou neutro. Nesse trabalho utilizamos alguns frameworks já estabelecidos e validados pela comunidade, com o intuito de identificar padrões, gerar insights e ajudar na absorção e processamento dos feedbacks dos clientes de maneira mais intuitiva.
 
 
 # Ask
 
 
-Utilizamos o artigo sugerido: (https://towardsdatascience.com/a-beginners-guide-to-text-classification-with-scikit-learn-632357e16f3a) e adicionamos como característica original do nosso trabalho o serviço feito posterior a análise de dados, ou seja, nosso trabalho se baseia em como utilizar o conhecimento já existente (técnicas e frameworks do artigo citado) para responder perguntas como:
+Utilizamos o artigo sugerido: (https://towardsdatascience.com/a-beginners-guide-to-text-classification-with-scikit-learn-632357e16f3a) e adicionamos como característica original um novo conjunto de dados para o nosso trabalho, a fim de fazer uma análise de dados, ou seja, utilizando o conhecimento já existente (técnicas e frameworks do artigo citado) para responder perguntas como:
 
 
 1 - Conseguirmos identificar os pontos fracos e fortes dos negócios na visão do cliente?
