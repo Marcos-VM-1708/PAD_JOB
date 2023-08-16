@@ -14,7 +14,7 @@ A Análise de Sentimentos é uma técnica utilizada para determinar a polaridade
 # Ask
 
 
-Utilizamos o artigo sugerido: (https://towardsdatascience.com/a-beginners-guide-to-text-classification-with-scikit-learn-632357e16f3a) e adicionamos como característica original um novo conjunto de dados para o nosso trabalho, a fim de fazer uma análise de dados, ou seja, utilizando o conhecimento já existente (técnicas e frameworks do artigo citado) para responder perguntas como:
+Utilizamos o artigo sugerido: (https://towardsdatascience.com/a-beginners-guide-to-text-classification-with-scikit-learn-632357e16f3a) e adicionamos como característica original um novo conjunto de dados para o nosso trabalho, de modo que utilizando o conhecimento já existente (técnicas e frameworks do artigo citado) tentaremos responder as seguintes perguntas:
 
 
 1 - Conseguirmos identificar os pontos fracos e fortes dos negócios na visão do cliente?
