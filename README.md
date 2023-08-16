@@ -8,19 +8,13 @@ Membros: Fabiano Caetano (líder), Fernando Mota, João Pedro, Lisandra Menezes,
 
 
 
-Certamente análise de sentimentos é algo popular e uma questão resolvida pela academia, tanto é que podemos usar bibliotecas pré-treinadas para fazer essa análise. Nesse trabalho usamos alguns frameworks que fazem essa analise de sentimentos, algumas originais e outras sugeridas pelo artigo referencia: https://towardsdatascience.com/a-beginners-guide-to-text-classification-with-scikit-learn-632357e16f3a.
-
-
-Nosso objetivo com a análise de sentimentos não é identificar o estado da arte em análise de sentimento, mas quais são as aplicações nos negócios que são realmente valiosas. Queremos identificar padrões, gerar insights e ajudar a absorver os feedbacks dos clientes. Portanto, nosso projeto tem sua originalidade baseada no serviço posterior à análise de sentimento, pois simplesmente a predição de sentimentos não gera nenhum benefício por si só. 
-
-
-
+A Análise de Sentimentos é, a grosso modo, o processo de analisar um texto digital para determinar se o tom emocional da mensagem é positivo, negativo ou neutro. Nesse trabalho utilizamos alguns frameworks já estabelecidos e validados pela comunidade, com o intuito de identificar padrões, gerar insights e ajudar na absorção e processamento dos feedbacks dos clientes de maneira mais intuitiva.
 
 
 # Ask
 
 
-Nossa principal investigação é se a analise de sentimento ajuda na absorção de feedbacks dos clientes para com o negócio. Podemos separar essas perguntas em alguns tópicos primarios de investigação. Sem sombra de dúvidas, as perguntas poderiam ser ainda mais complexas, aqui vale ressaltar que é apenas uma exploração inicial com base em hipoteses. 
+Utilizamos o artigo sugerido: (https://towardsdatascience.com/a-beginners-guide-to-text-classification-with-scikit-learn-632357e16f3a) e adicionamos como característica original do nosso trabalho o serviço feito posterior a análise de dados, ou seja, nosso trabalho se baseia em como utilizar o conhecimento já existente (técnicas e frameworks do artigo citado) para responder perguntas como:
 
 
 1 - Conseguirmos identificar os pontos fracos e fortes dos negócios na visão do cliente?
@@ -31,6 +25,8 @@ Nossa principal investigação é se a analise de sentimento ajuda na absorção
     
     1.2 - Qual a frequência dos sentimentos? Conseguimos visualizar isso de alguma forma?
 
+
+Sem sombra de dúvidas, as perguntas poderiam ser ainda mais complexas, aqui vale ressaltar que é apenas uma exploração inicial com base em hipoteses. 
 
 Em nossas considerações, percebemos que um produto viavel dessas analises seria um dashboard com gráficos.
 
