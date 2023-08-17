@@ -15,7 +15,7 @@ credentials = service_account.Credentials.from_service_account_info(info)
 # Pergunta
 query = '''SELECT
             *
-            FROM Land_zone.explore_reviews'''
+            FROM Refined_zone.explore_reviews'''
 
 # Função para obter dados do BigQuery com cache
 def get_bigquery_data(credentials, query):

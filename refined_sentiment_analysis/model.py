@@ -1,6 +1,6 @@
 import pandas as pd
 from transformers import pipeline
-from bigquery_data_review import df
+from refined_sentiment_analysis.bigquery_data_review import df
 
 # predict 50mil lines
 #-----------------------------------------------------------------
@@ -29,7 +29,7 @@ for batch in batches:
 
 final_result = pd.concat(results, ignore_index = True)
 
-final_result.to_csv("predicao.csv", index = False)
+final_result.to_csv("predicao_albert.csv", index = False)
 
 print(final_result.head())
 print(final_result.shape)
