@@ -34,7 +34,7 @@ Em nossas considerações, percebemos que um produto viavel dessas analises seri
 
 # Get
 
-Nessa etapa utilizamos dois principais métodos para a coleta de dados, sendo estes:
+Nessa etapa, do [Get](https://github.com/Marcos-VM-1708/PAD_JOB/tree/ac26b7437f58607af189d0f32520cd698a079030/Get) é a forma como extraímos nosso banco de dados e utilizamos dois principais métodos para a coleta de dados, sendo estes:
 
     1 - scraping via plataforma apify --- forma mais rapida de validar se os dados do google maps respondem ao ask 
 
@@ -67,7 +67,7 @@ Nessa etapa utilizamos dois principais métodos para a coleta de dados, sendo es
             
             
             dados_reviews.head()
-
+Armazenamos o conjunto de dados no [data_extracted](https://github.com/Marcos-VM-1708/PAD_JOB/tree/ac26b7437f58607af189d0f32520cd698a079030/data_extracted)
 
 # Explore
 
