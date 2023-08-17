@@ -34,12 +34,12 @@ Em nossas considerações, percebemos que um produto viavel dessas analises seri
 
 # Get
 
-1 - Scraping google 
+Nessa etapa utilizamos dois principais métodos para a coleta de dados, sendo estes:
 
-    >>> scraping via plataforma apify --- forma mais rapida de validar se os dados do google maps respondem ao ask 
+    1 - scraping via plataforma apify --- forma mais rapida de validar se os dados do google maps respondem ao ask 
 
    
-    >>> pipeline do processo de web scraping dos dados > implantação google (bs4 & selenium...)
+    2 - pipeline do processo de web scraping dos dados > implantação google (bs4 & selenium...)
 
 
     >>> Seguindo o caminho Model/AnalisesSentimento/dados.csv, você encontrará os dados da Big Query em um arquivo. Para acessar os comentários é necesário extrair do JSON "Review" com o seguinte código: 
@@ -69,7 +69,9 @@ Em nossas considerações, percebemos que um produto viavel dessas analises seri
             dados_reviews.head()
 
 
-# Explore -
+# Explore
+
+Durante a fase de exploração fizemos diversas modificações e alterações no dataset adquirido após a obtenção dos dados. Tratamos o nosso banco de dados para que o mesmo ficasse da melhor maneira possível para quando aplicarmos nossos modelos. Buscando responder as perguntas do Ask
     
      1 - Conseguirmos identificar os pontos fracos e fortes dos negócios na visão do cliente?
 
@@ -90,19 +92,20 @@ Em nossas considerações, percebemos que um produto viavel dessas analises seri
      >>>
      >>>
      
-# Model -
+# Model
+
+Durante a modelagem utilizamos dois principais modelos, sendo eles:
 
 
-    textblob - Framework simples que trás várias funcionalidades para processamento de dados textuais. https://textblob.readthedocs.io/en/dev/
+    Textblob - Framework simples que trás várias funcionalidades para processamento de dados textuais. Um grande desafio foi o idioma do dataset, como estamos fazendo uma prova de conceito, não focamos nos melhores modelos para dados em português, portanto, usamos a biblioteca TextBlob para traduzir todos os comentários.
+    Tal arquivo se encontra no caminho model/SVC-model/comentarios-traduzidos.csv
+    https://textblob.readthedocs.io/en/dev/
 
 
     SVC  model - O SVM é um tecnica que analisa e reconhece padrões, usando a classificação e análise de regressão. Como nossos dados são textuais, foi necessário a transformação em vetores. Outro ponto importante é que no treinamento do modelo, precisavamos de dados com anotação. Usamos as avaliações de 1 a 5 dos comentários no google maps para fazer a anotação dos dados.
-
-    
     O modelo treinado se encontra no caminho model/SVC-model/modelo_treinado.pkl
 
-
-    * Um grande desafio foi o idioma do dataset, como estamos fazendo uma prova de conceito, não focamos nos melhores modelos para dados em português, portanto, usamos a biblioteca TextBlob para traduzir todos os comentários. Tal arquivo se encontra no caminho model/SVC-model/comentarios-traduzidos.csv
+No fim, optamos por utilizar o SVC model, isso pois o nosso dataset e o dataset disponibilizado no projeto FMF eram extremamente similares, tornando o SVC model o modelo ideal para a predição de sentimentos.
     
 
 # Comunication -
