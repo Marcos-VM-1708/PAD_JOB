@@ -9,7 +9,7 @@ Membros: Fabiano Caetano (líder), Fernando Mota, João Pedro, Lisandra Menezes,
 
 
 A Análise de Sentimentos é uma técnica utilizada para determinar a polaridade de uma sentença ou palavra, denominando o tom emocional da mensagem de positivo, negativo ou neutro. Nesse trabalho utilizamos alguns frameworks já estabelecidos e validados pela comunidade, com o intuito de identificar padrões, gerar insights e ajudar na absorção e processamento dos feedbacks dos clientes de maneira mais intuitiva.
-
+Cada pasta corresponde a um processo do modelo que foi seguido dentro do porjeto, por tanto, nos referênciamos no (AGEMC) Aks, Get, Explore, Model, Comunication.
 
 # Ask
 
