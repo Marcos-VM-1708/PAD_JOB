@@ -29,6 +29,7 @@ Utilizamos o artigo sugerido: (https://towardsdatascience.com/a-beginners-guide-
 Sem sombra de dúvidas, as perguntas poderiam ser ainda mais complexas, aqui vale ressaltar que é apenas uma exploração inicial com base em hipoteses. 
 
 Em nossas considerações, percebemos que um produto viavel dessas analises seria um dashboard com gráficos.
+Na pasta [Ask](https://github.com/Marcos-VM-1708/PAD_JOB/tree/bf9ba97f1d542e9093c5b86ac770e5af9f3f8b1f/Ask)
 
 
 
