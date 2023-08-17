@@ -1,31 +1,35 @@
-import torch
-from transformers import pipeline
 import pandas as pd
-from bigquery_data_review import filtered_rows
+from transformers import pipeline
+from bigquery_data_review import df
 
-# Define the maximum sequence length supported by the model
-MAX_SEQ_LENGTH = 512
+# predict 50mil lines
+#-----------------------------------------------------------------
+# run model:
+classifier = pipeline("text-classification", model = 'bhadresh-savani/albert-base-v2-emotion')
 
-# Extract the first 740 reviews
-data = filtered_rows["text"]
+# Split the data into batches of size 500
+batch_size = 500
+num_batches = len(df) // batch_size + (len(df) % batch_size != 0)
+batches = [df[i * batch_size: (i + 1) * batch_size] for i in range(num_batches)]
 
+results = []
 
-truncated_data = [text[:MAX_SEQ_LENGTH] for text in data]
+#-----------------------------------------------------------------
+# data predict:
+for batch in batches:
+    batch_data = batch["text"].tolist()
+    truncated_data = [text[:512] for text in batch_data]
 
-# Create a text classification pipeline with the model
-classifier = pipeline("text-classification", model='bhadresh-savani/albert-base-v2-emotion')
+    # Perform sentiment analysis on the truncated data
+    prediction = classifier(truncated_data)
 
-# Perform sentiment analysis on the truncated data
-prediction = classifier(truncated_data)
+    temp = pd.DataFrame(prediction)
+    batch_results = pd.concat([temp, batch["text"]], axis = 1)
+    results.append(batch_results)
 
-# Define a function to join the results
-def join_results(predict, original_data):
-    temp = pd.DataFrame(predict)
-    return pd.concat([temp, original_data], axis=1)
+final_result = pd.concat(results, ignore_index = True)
 
-# Join the prediction results with the original review text
-dfn = join_results(prediction, filtered_rows[["text","title", "stars"]])
+final_result.to_csv("predicao.csv", index = False)
 
-# Print the first few rows of the resulting DataFrame
-dfn.to_csv("predição.csv")
-print(dfn.head())
+print(final_result.head())
+print(final_result.shape)
