@@ -14,8 +14,9 @@ A Análise de Sentimentos é uma técnica utilizada para determinar a polaridade
 # Ask
 
 
-Utilizamos o artigo sugerido: (https://towardsdatascience.com/a-beginners-guide-to-text-classification-with-scikit-learn-632357e16f3a) e adicionamos como característica original um novo conjunto de dados para o nosso trabalho, de modo que utilizando o conhecimento já existente (técnicas e frameworks do artigo citado) tentaremos responder as seguintes perguntas:
+Utilizamos o artigo sugerido: [FMF](https://towardsdatascience.com/a-beginners-guide-to-text-classification-with-scikit-learn-632357e16f3a) e adicionamos como característica original um novo conjunto de dados para o nosso trabalho, de modo que utilizando o conhecimento já existente (técnicas e frameworks do artigo citado) tentaremos responder as seguintes perguntas:
 
+No [Ask](https://github.com/Marcos-VM-1708/PAD_JOB/tree/bf9ba97f1d542e9093c5b86ac770e5af9f3f8b1f/Ask) encontra-se os dados iniciais e modelos iniciais.
 
 1 - Conseguirmos identificar os pontos fracos e fortes dos negócios na visão do cliente?
 
@@ -26,12 +27,9 @@ Utilizamos o artigo sugerido: (https://towardsdatascience.com/a-beginners-guide-
     1.2 - Qual a frequência dos sentimentos? Conseguimos visualizar isso de alguma forma?
 
 
-Sem sombra de dúvidas, as perguntas poderiam ser ainda mais complexas, aqui vale ressaltar que é apenas uma exploração inicial com base em hipoteses. 
+Sem sombra de dúvidas, as perguntas poderiam ser ainda mais complexas, aqui vale ressaltar que é apenas uma visualização com base em hipoteses. 
 
 Em nossas considerações, percebemos que um produto viavel dessas analises seria um dashboard com gráficos.
-
-Na pasta [Ask](https://github.com/Marcos-VM-1708/PAD_JOB/tree/bf9ba97f1d542e9093c5b86ac770e5af9f3f8b1f/Ask) Encontra-se os dados iniciais, e a partir disso foi possível fazer as perguntas acima.
-
 
 
 # Get
