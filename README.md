@@ -71,7 +71,7 @@ Armazenamos o conjunto de dados no [data_extracted](https://github.com/Marcos-VM
 
 # Explore
 
-Durante a fase de exploração fizemos diversas modificações e alterações no dataset adquirido após a obtenção dos dados. Tratamos o nosso banco de dados para que o mesmo ficasse da melhor maneira possível para quando aplicarmos nossos modelos. Buscando responder as perguntas do Ask
+Durante a fase de [explore](https://github.com/Marcos-VM-1708/PAD_JOB/tree/4ba73709c8fc8d84e0df24b4107db08ee5bbc777/explore) fizemos diversas modificações e alterações no dataset adquirido após a obtenção dos dados. Tratamos o nosso banco de dados para que o mesmo ficasse da melhor maneira possível para quando aplicarmos nossos modelos. Buscando responder as perguntas do Ask
     
      1 - Conseguirmos identificar os pontos fracos e fortes dos negócios na visão do cliente?
 
