@@ -94,6 +94,7 @@ Durante a fase de [explore](https://github.com/Marcos-VM-1708/PAD_JOB/tree/4ba73
      
 # Model
 
+No [Model](https://github.com/Marcos-VM-1708/PAD_JOB/tree/a8ad513637a5d614d1c26adfbbc12e89d23280d7/model) armazenamos nossos modelos utilizados.
 Durante a modelagem utilizamos dois principais modelos, sendo eles:
 
 
@@ -105,7 +106,7 @@ Durante a modelagem utilizamos dois principais modelos, sendo eles:
     SVC  model - O SVM é um tecnica que analisa e reconhece padrões, usando a classificação e análise de regressão. Como nossos dados são textuais, foi necessário a transformação em vetores. Outro ponto importante é que no treinamento do modelo, precisavamos de dados com anotação. Usamos as avaliações de 1 a 5 dos comentários no google maps para fazer a anotação dos dados.
     O modelo treinado se encontra no caminho model/SVC-model/modelo_treinado.pkl
 
-No fim, optamos por utilizar o SVC model, isso pois o nosso dataset e o dataset disponibilizado no projeto FMF eram extremamente similares, tornando o SVC model o modelo ideal para a predição de sentimentos.
+No fim, optamos por utilizar o SVC model, isso pois o nosso dataset e o dataset disponibilizado no projeto [FMF](https://towardsdatascience.com/a-beginners-guide-to-text-classification-with-scikit-learn-632357e16f3a) eram extremamente similares, tornando o SVC model o modelo ideal para a predição de sentimentos.
     
 
 # Comunication -
