@@ -1,22 +1,13 @@
-# Projeto FMF - Análise de Sentimentos
+# Projeto FMF - Análise de Mercado
 
+# Projeto de análise de sentimentos:
 
-Membros: Fabiano Caetano (líder), Fernando Mota, João Pedro, Lisandra Menezes, Marcos Vinicius e Pedro Saraiva
+A Análise de Sentimentos é uma técnica utilizada para determinar a polaridade de uma sentença ou palavra, denominando o tom emocional da mensagem de positivo, negativo ou neutro. Nesse trabalho utilizamos alguns frameworks já estabelecidos e validados pela comunidade, com o intuito de identificar padrões, gerar insights e ajudar na absorção e processamento dos feedbacks dos clientes de maneira mais intuitiva.                                                 
 
-
-# Projeto de análise de sentimentos aplicado em bares goianos
-
-
-
-A Análise de Sentimentos é uma técnica utilizada para determinar a polaridade de uma sentença ou palavra, denominando o tom emocional da mensagem de positivo, negativo ou neutro. Nesse trabalho utilizamos alguns frameworks já estabelecidos e validados pela comunidade, com o intuito de identificar padrões, gerar insights e ajudar na absorção e processamento dos feedbacks dos clientes de maneira mais intuitiva.                                                                                                                        
-
-
+# Escopo:                                                                      
+    https://miro.com/app/board/uXjVMn1aoXM=/?share_link_id=909380549987
+    
 # Ask
-
-
-Utilizamos o artigo sugerido: [FMF](https://towardsdatascience.com/a-beginners-guide-to-text-classification-with-scikit-learn-632357e16f3a) e adicionamos como característica original um novo conjunto de dados para o nosso trabalho, de modo que utilizando o conhecimento já existente (técnicas e frameworks do artigo citado) tentaremos responder as seguintes perguntas:
-
-No [Ask](https://github.com/Marcos-VM-1708/PAD_JOB/tree/bf9ba97f1d542e9093c5b86ac770e5af9f3f8b1f/Ask) encontra-se os dados iniciais e modelos iniciais.
 
 1 - Conseguirmos identificar os pontos fracos e fortes dos negócios na visão do cliente?
 
