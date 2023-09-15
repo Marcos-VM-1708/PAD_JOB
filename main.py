@@ -6,7 +6,7 @@ from google.oauth2 import service_account
 
 #------------------------------------------
 # Carregue as informações do arquivo JSON
-with open("GBQ.json", "r") as json_file:
+with open("C:/Users\katia\OneDrive\Área de Trabalho\lab-union-06398df91385.json", "r") as json_file:
     info = json.load(json_file)
 
 # Crie as credenciais a partir das informações do arquivo JSON
